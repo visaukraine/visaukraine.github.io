@@ -32,15 +32,36 @@ article {
   margin: 10px;
 }
 
-h1 {
+.title-holder {
   position: absolute;
   top: 50%;
   width: 100%;
+
+}
+
+.title {
   font-size: 36px;
   letter-spacing: 3px;
   color: #fff;
   font-family: Oswald, sans-serif;
   text-align: center;
+  margin-bottom: 10px;
+  top: 30%;
+}
+
+.sub-title{
+  font-size: 15px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
+.sub-title a, span{
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-weight: 300;
 }
 
 h1 span {
