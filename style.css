@@ -7,21 +7,9 @@ body {
   background-size: cover;
 }
 
-@media (max-width:801px) {
-  #video-background, .title-holder {
-    display: none;
-  }
-
-}
-
-
-@media (min-width:801px) {
-  #image-background {
-    display: none;
-  }
-}
 
 #image-background {
+  display: none;
   background-size: contain;
   background-image: url('img.jpg');
   position: absolute;
@@ -42,6 +30,18 @@ body {
   width: auto;
   height: auto;
   z-index: -100;
+}
+
+
+@media only screen
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #video-background, .title-holder {
+      display: none;
+    }
+    #image-background {
+      display: block;
+    }
 }
 
 /* These just style the content */
