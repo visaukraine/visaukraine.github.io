@@ -7,6 +7,29 @@ body {
   background-size: cover;
 }
 
+@media (max-width:801px) {
+  #video-background, .title-holder {
+    display: none;
+  }
+
+}
+
+
+@media (min-width:801px) {
+  #image-background {
+    display: none;
+  }
+}
+
+#image-background {
+  background-size: contain;
+  background-image: url('img.jpg');
+  position: absolute;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 5%;
+}
 /* The only rule that matters */
 #video-background {
 /*  making the video fullscreen  */

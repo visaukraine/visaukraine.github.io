@@ -1,28 +1,39 @@
-<link href='./style.css' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VizaUkraine</title>
+  <link href='./style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <!--  Content  -->
+  <article>
+    <div class="title-holder">
+      <h1 class='title'>Viza Ukraine</h1>
+      <h3 class='sub-title'>
+        <span>Address: un 13 ,no 22 st ave Jordan Tehran Iran</span>
+        <br>
+        <span>Email: vizaukraine.com@gmail.com</span>
+        <br>
+        <br>
+        <a href="tel: +982188648966">Ofice: +982188648966</a>
+        <br>
+        <a href="tel: +989025924912">Mobile: +989025924912</a>
+        <br>
+        <a href="tel: +380938348448">Ukraine: +380938348448</a>
 
-<!--  Content  -->
-<article>
-  <div class="title-holder">
-    <h1 class='title'>Viza Ukraine</h1>
-    <h3 class='sub-title'>
-      <span>Address: un 13 ,no 22 st ave Jordan Tehran Iran</span>
-      <br>
-      <span>Email: vizaukraine.com@gmail.com</span>
-      <br>
-      <br>
-      <a href="tel: +982188648966">Ofice: +982188648966</a>
-      <br>
-      <a href="tel: +989025924912">Mobile: +989025924912</a>
-      <br>
-      <a href="tel: +380938348448">Ukraine: +380938348448</a>
+      </h3>
 
-    </h3>
+    </div>
 
-  </div>
+  </article>
 
-</article>
+  <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+  <video autoplay loop id="video-background" muted plays-inline>
+    <source src="./kievvideo.mp4" type="video/mp4">
+  </video>
 
-<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
-<video autoplay loop id="video-background" muted plays-inline>
-  <source src="./kievvideo.mp4" type="video/mp4">
-</video>
+  <div id="image-background"></div>
+
+</body>
+</html>
